@@ -1,0 +1,70 @@
+.bgcontainer{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    height:400px;
+    margin-left:40px;
+    margin-right:40px;
+}
+.color{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:blueviolet;
+    opacity:20%;
+}
+.bgcontainer img{
+    position:absolute;
+    width:100%;
+}
+.main{
+    stroke:none;
+}
+h1{
+    font-size:40pt;
+    font-family:"Pacifico";
+    text-align:center;
+}
+body{
+    background-color:hsla(271, 76%, 53%, 30%);
+    
+}
+p{
+    font-family:"Merriweather Sans";
+    margin-left:40px;
+    margin-right:40px;
+    font-size:20pt;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+a{
+    background-color:yellow;
+    border-radius:20px;
+    margin:20px;
+    padding:30px;
+    text-decoration:none;
+    color:blue;
+}
+.buttontext{
+    font-size:25pt;
+    font-family:"Anton SC";
+}
+
+@media screen and (max-width:600px){
+    .bgcontainer img{
+        height:100%;
+        width:100%;
+    }
+    .bgcontainer{
+        height:200px;
+        margin-left:20px;
+        margin-right:20px;
+    }
+}
